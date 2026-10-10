@@ -4,3 +4,4 @@ setfit
 sentence-transformers
 pandas
 numpy
+pathlib
