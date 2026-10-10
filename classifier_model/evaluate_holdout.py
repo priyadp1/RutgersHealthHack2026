@@ -1,6 +1,6 @@
 from setfit import SetFitModel
-from eval_sets import HOLDOUT_SET
-from evaluation import evaluate, print_misses
+from classifier_model.eval_sets import HOLDOUT_SET
+from classifier_model.evaluation import evaluate, print_misses
 from pathlib import Path
 
 MODEL_DIR = Path(__file__).resolve().parent / "setfit_multilingual_model"

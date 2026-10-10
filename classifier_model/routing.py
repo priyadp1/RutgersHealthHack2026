@@ -1,6 +1,6 @@
 import re
 import numpy as np
-from dataset_creation import RN, PROVIDER, DEPARTMENTS
+from classifier_model.dataset_creation import RN, PROVIDER, DEPARTMENTS
 
 NEEDS_REVIEW = "Needs Review"  
 THRESHOLD = 0.5

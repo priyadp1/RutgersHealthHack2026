@@ -1,9 +1,9 @@
 from setfit import SetFitModel, Trainer, TrainingArguments
 from datasets import Dataset
 from sklearn.model_selection import StratifiedGroupKFold
-from dataset_creation import DEPARTMENTS, load_dataset
-from eval_sets import DEV_SET, DEV_SET_2, HOLDOUT_SET
-from evaluation import evaluate, print_misses
+from classifier_model.dataset_creation import DEPARTMENTS, load_dataset
+from classifier_model.eval_sets import DEV_SET, DEV_SET_2, HOLDOUT_SET
+from classifier_model.evaluation import evaluate, print_misses
 import random
 import numpy as np
 import torch

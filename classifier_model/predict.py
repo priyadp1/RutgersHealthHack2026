@@ -1,6 +1,6 @@
 from pathlib import Path
 from setfit import SetFitModel
-from routing import route_requests
+from classifier_model.routing import route_requests
 
 MODEL_PATH = Path(__file__).resolve().parent / "setfit_multilingual_model"
 HF_MODEL_ID = "priyadp1/setfit-multilingual"

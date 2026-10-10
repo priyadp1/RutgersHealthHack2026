@@ -1,4 +1,4 @@
-from dataset_creation import RN, PCT, CHARGE, PROVIDER, EVS, DIETARY
+from classifier_model.dataset_creation import RN, PCT, CHARGE, PROVIDER, EVS, DIETARY
 
 # Labels follow ROUTING_POLICY.md. An empty list means the correct answer is "Needs Review".
 

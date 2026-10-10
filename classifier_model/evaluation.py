@@ -1,8 +1,8 @@
 import re
 from collections import defaultdict
 from sklearn.metrics import classification_report, accuracy_score, f1_score
-from dataset_creation import DEPARTMENTS, to_vector
-from routing import route_requests
+from classifier_model.dataset_creation import DEPARTMENTS, to_vector
+from classifier_model.routing import route_requests
 
 LANGUAGES = ["English", "Spanish", "Hindi", "French"]
 ENGLISH_WORDS = {"the", "i", "my", "is", "a", "and", "to", "can", "you", "me", "it", "in", "of", "for", "what", "how",
