@@ -5,3 +5,4 @@ __pycache__/
 setfit_multilingual_model/
 .env
 .venv/
+.DS_Store

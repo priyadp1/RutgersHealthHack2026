@@ -2,7 +2,7 @@ from pathlib import Path
 from setfit import SetFitModel
 from classifier_model.routing import route_requests
 
-MODEL_PATH = Path(__file__).resolve().parent / "setfit_multilingual_model"
+MODEL_PATH = Path(__file__).resolve().parent.parent / "setfit_multilingual_model"
 HF_MODEL_ID = "priyadp1/setfit-multilingual"
 # Use the local copy if present, otherwise download from Hugging Face Hub
 model = SetFitModel.from_pretrained(str(MODEL_PATH) if MODEL_PATH.exists() else HF_MODEL_ID)
